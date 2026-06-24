@@ -166,4 +166,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Secretos / credenciales (Google Drive, tokens)
+credenciales.json
+token.json
+*credentials*.json
+
+# Bases vectoriales generadas (se reconstruyen con ingest.py)
+chroma_db/
+**/chroma_db/
 # Streamlit
